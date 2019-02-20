@@ -1,4 +1,12 @@
 /* Globals */
+
+@media(min-width:500px){
+  .galleryBlock .galleryCard:hover{
+    transform:translateY(-10px) scale(1.02);
+    box-shadow: 0px 10px 10px #000000 !important;
+  }
+}
+
 :root {
   --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-serif: Georgia, serif;
@@ -23,6 +31,8 @@ a {
   padding-bottom: 2rem;
   padding-top: 2rem;
   text-align: center;
+  background-color: #B94629 !important;
+  color:#ffffff;
 }
 
 .site-header__quote {
@@ -32,9 +42,51 @@ a {
   margin-right: auto;
   max-width: 460px;
 }
-
+.jumbotron{
+  margin-bottom: 0px !important;
+}
 .site-footer {
   color: var(--color);
   font-family: var(--font-serif);
   text-align: center;
+}
+.linkSection{
+text-align: center;
+background-color: #E89F65;
+}
+.linkSection p a{
+  text-decoration: none;
+  font-size: 15px;
+  color: #f2f2f2;
+  font-family: var(--font-sans);
+}
+ .card{
+transition: all .3s linear !important;
+box-shadow:0px 2px 2px #000000;
+margin: 2%;
+}
+.thumbnail img{
+  width: 100%;
+  height:auto!important;
+}
+.card:hover{
+  transform: scale(1.1);
+  transition: all .2s linear;
+}
+.footer {
+ 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #B94629 !important;
+  color: #ffffff;
+  font-family: var(--font-serif);
+  text-align: center;
+  padding:5px;
+  font-size: 12px;
+}
+
+.mainDiv2{
+  margin-top: 10px;
+  float: left;
 }
