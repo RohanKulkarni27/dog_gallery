@@ -11,4 +11,7 @@ Apache webserver.
 ## Instructions to Use
 
 Copy the folder 'Asana' inside your XAMPP -> htdocs.
-After coyping the folder, start the apapche web server, and inside your browser go on the web address **http://localhost/asana/**
+After coyping the folder, start the apache web server, and inside your browser go on the web address **http://localhost/asana/**
+
+
+
